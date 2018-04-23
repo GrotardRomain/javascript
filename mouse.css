@@ -1,0 +1,19 @@
+.hoverMe {
+  background-color: #66FFBF;
+  width: 30vh;
+  height: 10vh;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reset {
+background-color: #FF40FF;
+text-align: center;
+font-size: 3vh;
+width: 30vh;
+height: 10vh;
+margin-top: 10vh;
+margin-left: auto;
+margin-right: auto;
+}
