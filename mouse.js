@@ -37,3 +37,27 @@ reset.onmouseover = function(){
   }
 
 }
+
+
+//axe x et axe y
+
+let x = document.querySelector("#axe-x")
+
+let y = document.querySelector("#axe-y")
+
+let iks = function(axeX){
+
+  x.innerHTML = "Position X:" + axeX.clientX
+
+
+}
+
+window.addEventListener("mousemove",iks)
+
+let igrec = function(axeY){
+
+  y.innerHTML = "Position Y:" + axeY.clientY
+
+}
+
+window.addEventListener("mousemove", igrec)

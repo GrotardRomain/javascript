@@ -7,7 +7,7 @@
   margin-right: auto;
 }
 
-#reset {
+/* #reset {
 background-color: #FF40FF;
 text-align: center;
 font-size: 3vh;
@@ -16,4 +16,19 @@ height: 10vh;
 margin-top: 10vh;
 margin-left: auto;
 margin-right: auto;
+} */
+
+
+/* faire un triangle aucune utilité */
+#reset{
+ height : 0;
+ width : 0;
+ border-right : 87px solid transparent;
+ border-bottom : 150px solid #FF40FF;
+ border-left : 87px solid transparent;
+ line-height: 2vh;
+ margin-top: 10vh;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: left;
 }
