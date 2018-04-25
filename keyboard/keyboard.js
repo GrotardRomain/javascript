@@ -1,3 +1,4 @@
+//exercice1
 let switchColor = document.querySelector("#character")
 
 let press = (event) => {
@@ -51,4 +52,64 @@ let press = (event) => {
 
 }
 
-window.addEventListener("keypress", press, true);
+window.addEventListener("keypress", press, true)
+
+//exercice2
+let up = document.getElementById("up")
+
+let down = document.getElementById("down")
+
+let left = document.getElementById("left")
+
+let right = document.getElementById("right")
+
+let highlightPress = (event) => {
+
+  switch(event.key){
+
+    case "ArrowUp":
+      up.className = "highlight";
+      break;
+
+    case "ArrowDown":
+      down.className = "highlight";
+      break;
+
+    case "ArrowLeft":
+      left.className = "highlight";
+      break;
+
+    case "ArrowRight":
+      right.className = "highlight";
+      break;
+
+  }
+
+}
+
+let highlightStop = (event) => {
+
+  switch(event.key){
+
+    case "ArrowUp":
+      up.className = "";
+      break;
+
+    case "ArrowDown":
+      down.className = "";
+      break;
+
+    case "ArrowLeft":
+      left.className = "";
+      break;
+
+    case "ArrowRight":
+      right.className = "";
+      break;
+
+  }
+}
+
+window.addEventListener("keydown", highlightPress, true)
+
+window.addEventListener("keyup", highlightStop, true)

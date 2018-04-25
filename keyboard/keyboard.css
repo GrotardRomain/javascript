@@ -5,3 +5,43 @@
   border-style: solid;
   border-color: black;
 }
+
+.highlight {
+  opacity: 0.1;
+}
+
+#up {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: black;
+  background-color: #001B99;
+}
+
+#down {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: black;
+  background-color: #FFC100;
+}
+
+#left {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: black;
+  background-color: #FF1E00;
+}
+
+#right {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: black;
+  background-color: #00CC2D;
+}
