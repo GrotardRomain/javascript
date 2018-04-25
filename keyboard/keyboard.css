@@ -1,0 +1,7 @@
+#character {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: black;
+}
